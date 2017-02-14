@@ -5,6 +5,8 @@ LICENSE = "MIT"
 require qt5-image.bb
 
 PYQT5_PKGS = " \
+    python3-sip \
+    sip \
 "
 
 IMAGE_INSTALL += " \
